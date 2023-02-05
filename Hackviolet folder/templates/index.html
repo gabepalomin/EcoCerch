@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>Ecocerch</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+
+</head>
+<body>
+    <div class="description">
+        <h1>EcoCerch Certification Searcher!</h1>
+        <p>A way for you to know what organizations are certified for being eco friendly!</p>
+    </div>
+
+    <div class="Information">
+    <div class="seal_logos">
+    <image class="green_seal" src="{{ url_for('static', filename='images/green_seal_logo.png')}}">
+    
+    <image class="climate_seal" src="{{ url_for('static', filename='images/climateNeutralLogo.png')}}">
+
+    <image class="rainforest" src="{{ url_for('static', filename='images/rainforest-alliance-certified-logo.png')}}">
+
+    <image class="leapBunny" src="{{ url_for('static', filename='images/leapingLogo.png')}}">
+    </div>
+
+    
+    
+
+    
+
+    <div class="messages">
+        <p class="green_seal_descript">“Green Seal's approach to achieving <br>our mission is to encourage market<br> transformation away from products <br>made with toxic ingredients and<br> resource-intensive practices and<br> toward safer, greener products <br>supported by safer, greener supply<br> chains. “ - Green Seal
+        </p>
+        <p class="climate_seal_descript">These 331 brands have become<br> Climate Neutral Certified.<br> Together they measured<br> and offset 1,137,715 tonnes<br> of carbon to account for the<br> impacts of their last<br> year's operations. They are now<br> working to reduce future emissions.<br>
+            Measure emissions and assess <br>the carbon impacts of all<br> of your products and services from <br>cradle to customer.
+        </p>
+        <p class="rainforest_descript">The seal means that the <br>certified product or ingredient<br> was produced using methods<br> that support the three <br>pillars of sustainability: <br>social, economic, and environmental.<br> 
+            Our standards focus on <br>the following themes: forests,<br> climate, human rights, livelihoods
+            </p>
+        <p class="bunny_descript">Since 1996, the Leaping Bunny<br> Program, operated by the<br> Coalition for Consumer <br>Information on Cosmetics<br> in the US and Canada, has <br>been connecting compassionate<br> consumers to cruelty-free 
+            <br>companies under its Corporate <br>Standard of Compassion <br>for Animals. Companies must<br> pledge to end animal <br>testing at all stages of product <br>development in addition to <br>recommitting to the program <br>annually and being open to<br> third party audits.</p>
+    </div>
+
+    
+</div>
+
+<div class="top">
+    <image class="topLeft" src="{{ url_for('static', filename='images/output.png')}}">
+    <image class="topRight" src="{{ url_for('static', filename='images/output3.png')}}">
+    
+
+
+    <form action="#">
+    <div class="boxContainer">
+        
+        <table class="elementContainer">
+            <tr>
+                <td>
+                    <input type="text" placeholder="Search for an Org!" class="search" name="org" required>
+
+                </td>
+                
+            </tr>
+        </table>
+        
+    
+    </div>
+    <input class="submit_button" type="submit" value="Submit" />
+    </form>
+    
+
+</div>   
+</body>
+
+<!--<image class="bottomLeft" src="{{ url_for('static', filename='images/output2.png')}}">-->
+
+</html>

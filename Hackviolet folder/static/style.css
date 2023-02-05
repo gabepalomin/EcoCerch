@@ -1,0 +1,152 @@
+
+.description{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: Copperplate, Papyrus, fantasy;
+    color: #288b82;
+    border-radius: 50px;
+}
+body{
+    background-color: #B1C0A8;
+}
+
+.green_seal{
+    background-color: aliceblue;
+    margin-bottom: -90px;
+    margin-left: 10%;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 175px;
+    height: 175px;
+}
+.climate_seal{
+    background-color: aliceblue;
+    margin-bottom: -90px;
+    margin-left: 11%;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 175px;
+    height: 175px;
+}
+.rainforest{
+    background-color: aliceblue;
+    margin-bottom: -90px;
+    margin-left: 11%;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 175px;
+    height: 175px;
+}
+.leapBunny{
+    background-color: aliceblue;
+    margin-bottom: -90px;
+    margin-left: 11%;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 175px;
+    height: 175px;
+}
+.green_seal_descript{
+    margin-top: 100px;
+    margin-left: 6%;
+    margin-bottom: -160px;
+    color:aliceblue;
+    font-size: large;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.climate_seal_descript{
+    margin-top: -230px;
+    margin-left: 31%;
+    margin-bottom: -160px;
+    color:aliceblue;
+    font-size: medium;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+.rainforest_descript{
+    margin-top: -300px;
+    margin-left: 55%;
+    margin-bottom: -160px;
+    color:aliceblue;
+    font-size: medium;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.bunny_descript{
+    margin-top: -225px;
+    margin-left: 78%;
+    margin-bottom: -160px;
+    color:aliceblue;
+    font-size: medium;
+    font-family: Copperplate, Papyrus, fantasy;
+}
+
+.Information{
+    background-color: grey;
+    padding-top: 20px;
+    padding-bottom: 180px;
+    border-radius: 50px;
+}
+
+.topLeft{
+    height: 400px;
+    width: 400px;
+    margin:0px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius: 50px;
+}
+.topRight{
+    height: 400px;
+    width: 400px;
+    margin-left: 667px;
+    padding-top: 15px;
+    padding-left: 10px;
+    border-radius:50px;
+    padding-right: 10px;
+}
+
+
+.boxContainer{
+    margin: auto;
+    margin-top: -20%;
+    position: relative;
+    width: 325px;
+    height: 42px;
+    border: 4px solid grey;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 12px;
+    padding-left: 2px;
+    border-radius: 75px;
+}
+.elementContainer{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: middle;
+    
+
+}
+
+.search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 7px;
+    border-radius: 50px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 250;
+}
+
+.submit_button{
+    margin-top: 15px;
+    margin-left: 727px;
+    border: 4px solid grey;
+    height: 30px;
+    border-radius: 50px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    margin-bottom: 400px;
+}
