@@ -1,6 +1,11 @@
 # HackViolet2023
 Hackviolet Submission
 
+EcoCerch is a website that allows users to know which companies take pride in helping the environment. Each company
+listen provides services that are eco-friendly. 
+
+How to Use: 
+
 Run "Flask.py" in python terminal.
 Input an organization name in the search bar to see
 what certifications they have.
